@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*styling the box */
+.box {
+    background-color: cadetblue;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    box-shadow: rgb(0 0 0) 4px 3px 11px 2px;
+    transition: 0.7s;
+    overflow: hidden;
+}
+
+/*styling the title*/
+.number {
+    background-color: darkslategrey;
+    padding: 10px;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 2em;
+    transition: 0.7s;
+}
+
+/*some styling to make it looks better*/
+h2 {
+    margin: 15px 0;
+}
+
+p {
+    line-height: 1.2em;
+    transition: 0.7s;
+}
+
+.box:hover .number {
+    box-shadow: 0 0 0 500px darkslategrey;
+}
